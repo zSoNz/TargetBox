@@ -1,6 +1,6 @@
 # TargetBox
 
-[![CI Status](https://img.shields.io/travis/KikacheishviliBogdan/TargetBox.svg?style=flat)](https://travis-ci.org/KikacheishviliBogdan/TargetBox)
+[![CI Status](https://img.shields.io/travis/zSoNz/TargetBox.svg?style=flat)](https://travis-ci.org/zSoNz/TargetBox)
 [![Version](https://img.shields.io/cocoapods/v/TargetBox.svg?style=flat)](https://cocoapods.org/pods/TargetBox)
 [![License](https://img.shields.io/cocoapods/l/TargetBox.svg?style=flat)](https://cocoapods.org/pods/TargetBox)
 [![Platform](https://img.shields.io/cocoapods/p/TargetBox.svg?style=flat)](https://cocoapods.org/pods/TargetBox)
