@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'TargetBox'
   s.version          = '1.0.0'
   s.summary          = 'Tool for split functions on targets. For project with multiple targets.'
-
+  s.swift_version    = '4.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -27,7 +27,6 @@ Tool for split file with two or more targets on independence parts. Its be usefu
   s.author           = { 'Kikacheishvili Bogdan' => '<bogdan.kikacheishvili@idapgroup.com>' }
   s.source           = { :git => 'https://github.com/zSoNz/TargetBox.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.swift_version = '5.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TargetBox/Classes/**/*'

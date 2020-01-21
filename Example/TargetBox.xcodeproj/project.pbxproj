@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		101C7F5A56C27E47250C070D /* Pods_TargetBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TargetBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B08F1F859ED38B349F37877 /* TargetBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TargetBox.podspec; path = ../TargetBox.podspec; sourceTree = "<group>"; };
+		3B08F1F859ED38B349F37877 /* TargetBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TargetBox.podspec; path = ../TargetBox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5EE99E3B79DA09C5E395F662 /* Pods-TargetBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TargetBox_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TargetBox_Tests/Pods-TargetBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* TargetBox_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TargetBox_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
