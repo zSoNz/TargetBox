@@ -1,0 +1,6 @@
+framework module TargetBox {
+  umbrella header "TargetBox-umbrella.h"
+
+  export *
+  module * { export * }
+}

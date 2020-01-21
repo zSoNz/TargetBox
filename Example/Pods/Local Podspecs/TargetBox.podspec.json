@@ -1,0 +1,36 @@
+{
+  "name": "TargetBox",
+  "version": "0.1.0",
+  "summary": "A short description of TargetBox.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Kikacheishvili Bogdan/TargetBox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kikacheishvili Bogdan": "<bogdan.kikacheishvili@idapgroup.com>"
+  },
+  "source": {
+    "git": "https://github.com/Kikacheishvili Bogdan/TargetBox.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TargetBox/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Source/Core/",
+      "dependencies": {
+        "RxCocoa": [
+          "~> 5.0"
+        ],
+        "RxSwift": [
+          "~> 5.0"
+        ]
+      }
+    }
+  ]
+}
