@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Tool for split file with two or more targets on independence parts.
+Tool for split file with two or more targets on independence parts. Its be useful for project with multiple targets.
                        DESC
 
   s.homepage         = 'https://github.com/zSoNz/TargetBox'
@@ -27,13 +27,12 @@ Tool for split file with two or more targets on independence parts.
   s.author           = { 'Kikacheishvili Bogdan' => '<bogdan.kikacheishvili@idapgroup.com>' }
   s.source           = { :git => 'https://github.com/zSoNz/TargetBox.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version = '5.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TargetBox/Classes/**/*'
 
   s.subspec "Core" do |ss|
-    ss.source_files  = "Source/Core/"
     ss.dependency "RxCocoa", "~> 5.0"
     ss.dependency "RxSwift", "~> 5.0"
   end
