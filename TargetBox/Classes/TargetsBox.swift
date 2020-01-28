@@ -96,9 +96,9 @@ public class TargetsBox<Object: AnyObject & ReactiveCompatible, Targets: Targets
             .wrapped?
             .rx
             .methodInvoked(container.trigger)
-            .bind { _ in
-                if container.target.rawValue == Targets.current {
-                    container.function.execute()
+            .bind { [weak container] _ in
+                if container?.target.rawValue == Targets.current {
+                    container?.function.execute()
                 }
             }
             .disposed(by: self.disposeBag)
