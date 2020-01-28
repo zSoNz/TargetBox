@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TargetBox'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Tool for split functions on targets. For project with multiple targets.'
   s.swift_version    = '4.0'
 # This description is used to generate tags and improve search results.
